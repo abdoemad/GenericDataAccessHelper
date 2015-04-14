@@ -37,7 +37,7 @@ public static List&ltEmployee&gt; GeAllEmployees()
     }
 }
 </pre>
-<p> So, I have to <b>redundant</b> this code with a new business (e.g. GetEmployeeOrders). Also, if I have to access another database witch means another <code>DBContext</code> I have to redundant this logic!!</p>
+<p> So, I have to <b>redundant</b> this code with a new business (e.g. GetEmployeeOrders). Also, in case I have to access another database witch means another <code>DBContext</code> I have to redundant this logic!!</p>
 <p> Here, the <b>Generics</b> and <b>Delegates</b> comes as a solution for those two issues. So I created <code>public static class</code> called <code><a href="https://github.com/abdoemad/GenericDataAccessHelper/blob/master/GenericDAL/DALHelper.cs">DALHelper</a></code> contains the following static methods</p>
 
 <h3> 1. Retrieval</h3>
