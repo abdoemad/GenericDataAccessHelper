@@ -1,6 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Data.Entity;
+﻿using System.Data.Entity;
+using GenericDAL.Models;
 
 namespace GenericDAL.Contexts
 {
@@ -11,13 +10,5 @@ namespace GenericDAL.Contexts
             : base("name=AdventureWorksDBConnection")
         {
         }
-    }
-
-    [Table("Customer",Schema = "SalesLT")]
-    public class Customer
-    {
-        [Key]
-        public int CustomerID { get; set; }
-        public string FirstName { get; set; }
     }
 }

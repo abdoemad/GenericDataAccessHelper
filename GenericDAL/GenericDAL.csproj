@@ -65,6 +65,9 @@
     <Compile Include="DALHelper.cs" />
     <Compile Include="DALBusiness.cs" />
     <Compile Include="Contexts\NorthwindDBContext.cs" />
+    <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\Supplier.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -31,7 +31,7 @@ namespace GenericDAL
             }
         }
 
-        // 2. Generic Rsult
+        // 2. Generic Result
         public static TResult GenericResultRetrival<T, TResult>(Func<T, TResult> func) where T : DbContext, new()
             where TResult : new()
         {

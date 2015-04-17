@@ -1,8 +1,8 @@
 ﻿using System;
 using System.IO;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using GenericDAL;
-using GenericDAL.Contexts;
+using GenericDAL.Models;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTest
 {
